@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background-image: url('walp.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Comparison Slider</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color:white;">Before/After</h1>
+    
+
+
+    <div class="container">
+        <img src="JackHarding3-2.jpg">
+        <img id="my-img" src="JackHarding3.jpg">
+        <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+    </div>
+
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
